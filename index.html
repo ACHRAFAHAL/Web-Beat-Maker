@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Use your vinyl record icon -->
+    <link rel="shortcut icon" href="data/vinyl-record.png" type="image/png">
+    <link rel="icon" type="image/png" sizes="32x32" href="data/vinyl-record.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="data/vinyl-record.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="data/vinyl-record.png" />
+    
+    <title>Song Maker</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main id="app">
+
+      <section id="controls" aria-label="Controls">
+        <button id="play" class="btn">Play</button>
+
+        <span class="divider">|</span>
+
+        <label for="tempo">Tempo</label>
+        <input
+          id="tempo"
+          class="tempo-input"
+          name="tempo"
+          aria-label="Tempo (bpm)"
+          type="range"
+          min="40"
+          max="240"
+          value="120"
+        />
+        <span id="tempo-value" class="tempo-value">120</span>
+
+        <span class="divider">|</span>
+
+        <label for="waveSelect">Sound</label>
+        <select name="waveSelect" id="waveSelect" class="wave-select">
+          <option value="sine">Sine</option>
+          <option value="square">Square</option>
+          <option value="triangle">Triangle</option>
+          <option value="sawtooth">Saw</option>
+        </select>
+
+        <span class="divider">|</span>
+
+        <label for="spanselect">Span</label>
+        <select name="cols" id="cols" class="wave-select">
+          <option value=16>16</option>
+          <option value=20>20</option>
+          <option value=24>24</option>
+          <option value=28>28</option>
+        </select>
+
+        <span class="divider">|</span>
+
+        <button id="clearBtn" class="btn">Clear</button>
+
+        <span class="divider">|</span>
+
+        <button id="randomBtn" class="btn">Randomise</button>
+      </section>
+
+      <section
+        id="grid"
+        class="grid"
+        role="grid"
+        aria-label="Notes grid"
+      ></section>
+    </main>
+
+    <noscript
+      >Please enable Javascript to use this Song Maker project.</noscript
+    >
+    <script src="./main.js"></script>
+  </body>
+</html>
