@@ -2,7 +2,7 @@
 
 A small browser-based step sequencer / song maker. Click grid cells to toggle notes, set tempo and waveform, then press Play.
 Live demo: [Click Here]([index.html](https://achrafahal.github.io/Web-Beat-Maker/))
-![Uploading Capture d'écran 2025-08-30 010835.png…]()
+<img width="1475" height="734" alt="Capture d'écran 2025-08-30 010835" src="https://github.com/user-attachments/assets/dbb747df-8ab6-4d51-a08a-fa1ed0041fed" />
 
 
 Controls
