@@ -1,20 +1,8 @@
 # Web Beat Maker
 
 A small browser-based step sequencer / song maker. Click grid cells to toggle notes, set tempo and waveform, then press Play.
+Live demo: [Click Here]([index.html](https://achrafahal.github.io/Web-Beat-Maker/))
 
-- Live demo: open [index.html](index.html) in a browser (HTTP server recommended).
-- Files:
-  - [index.html](index.html)
-  - [main.js](main.js)
-  - [style.css](style.css)
-  - [data/vinyl-record.png](data/vinyl-record.png)
-  - [.gitattributes](.gitattributes)
-
-Quick start
-- Open the repo folder and launch a simple static server, e.g.:
-  - Python: python -m http.server 8000
-  - Then open http://localhost:8000/index.html
-- Or open [index.html](index.html) directly in a modern browser (Web Audio API required).
 
 Controls
 - Play / Stop: toggles playback.
@@ -36,9 +24,3 @@ Notes
 - Uses the Web Audio API (AudioContext). User gesture may be required to start audio on some browsers.
 - Grid is 8 rows by N columns (configurable via the Span selector). Row note names are rendered in the UI.
 - Styling in [style.css](style.css).
-
-License
-- No license file included — add one if you plan to publish.
-
-Contributing
-- Small, single-page app — open issues or submit PRs against
